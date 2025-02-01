@@ -10,19 +10,10 @@
    git clone https://github.com/jordantamm/receipt-processor-challenge.git
     cd receipt-processor-challenge
 
-2. Build:
-    # Windows
-    go build -o receipt-processor-challenge.exe
-
-    # Linux/macOS
-    go build -o receipt-processor-challenge
-
-3. Run:
-    # Windows
-   .\receipt-processor-challenge.exe
-
-    # Linux/macOS
-    ./receipt-processor-challenge
+2. Run:
+    ```sh
+    go mod download
+    go run main.go
 
 Application will be running on http://localhost:8080
 
